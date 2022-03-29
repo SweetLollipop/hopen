@@ -1,0 +1,183 @@
+.banner{
+    width:100%;
+    height:1080px;
+    background:url("../images/about/bg.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.banner .container h1{
+    margin-top:330px;
+    margin-right:5px;
+    font-size:60px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+.banner p{
+    margin-top:48px;
+    font-size:24px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    text-align: right;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.nav{
+    width:100%;
+    height:80px;
+    border-bottom:1px solid #E5E5E5;
+}
+.nav ul{
+    height:80px;
+}
+.nav li{
+    float:left;
+    margin-right:50px;
+    height:80px;
+    line-height:80px;
+    box-sizing:border-box;
+}
+.nav li.active{
+    border-bottom:3px solid #303183;
+}
+.nav li a{
+    display:block;
+    font-size: 20px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.container h1{
+    margin-top:50px;
+    font-size: 30px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.contentBox .oItem{
+    margin-top:30px;
+    margin-right:50px;
+    float: left;
+    width:575px;
+}
+.contentBox .oItem:nth-child(2n){
+    margin-right:0
+}
+.imgBox{
+    width:100%;
+    height:200px;
+}
+.contentBox .oItem:nth-of-type(1) .imgBox{
+    background:url('../images/services/download1.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.contentBox .oItem:nth-of-type(2) .imgBox{
+    background:url('../images/services/download2.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.contentBox .oItem:nth-of-type(3) .imgBox{
+    background:url('../images/services/download3.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.contentBox .oItem:nth-of-type(4) .imgBox{
+    background:url('../images/services/download4.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.imginner{
+    text-align: center;
+    line-height:200px;
+}
+.imginner span{
+    margin-left:20px;
+    font-size: 30px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: bold;
+    text-align: left;
+    vertical-align:super;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+
+.hide{
+    display: none;
+}
+.shade{
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 9;
+}
+.mode{
+    border: 1px solid black;
+    font-family: serif;
+    font-size: 16px;
+    position: fixed;
+    top: 50px;
+    /* height: 540px; */
+    width: 800px;
+    left: 50%;
+    background-color: white;
+    margin-left: -400px;
+    padding-bottom: 20px;
+    z-index: 10;
+}
+.mode p{
+    font-family: serif;
+    font-size: 14px;
+    color: red;
+    margin: 10px 50px;
+}
+.mode .content-prompt{
+    text-align: center;
+}
+.from-warpper{
+    margin: 0 auto;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.from-warpper div:not(:last-of-type){
+    margin-left: 170px;
+    /* border: 1px solid salmon; */
+    /* height: 30px; */
+    width: 70%;
+    padding: 4px 0;
+}
+.from-warpper input{
+    margin-left: 95px;
+}
+.from-warpper label::before {
+    content: '*';   
+    color: red;   
+    font-size: 100%;
+    
+}
+#submit,#cencel{
+    border:1px solid rgb(0, 104, 155);
+    padding: 5px 15px;
+    background-color: #fff;
+    color: #fff;
+    font-family: serif;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(0, 104, 155);
+}
+#imgWapper{
+    float: right;
+}

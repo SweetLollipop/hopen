@@ -1,0 +1,74 @@
+.banner{
+    width:100%;
+    height:980px;
+    background:url(../images/solution/bg.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.content h1{
+    margin:28px 0;
+    font-size: 30px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: bold;
+    text-align:left;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.content .text{
+    margin-top:30px;
+    text-indent:2em;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.wrap{
+    width:100%;
+    height:300px;
+    padding:30px 0;
+    margin-top:30px;
+}
+.bgColor{
+    background: #eeeeee;
+}
+.btn{
+    float:right;
+    padding:8px 18px;
+    font-size: 16px;
+    text-align:center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    background:#303183;
+    border-radius:20px;
+}
+.oLeft{
+    float: left;
+    width:575px;
+    height:300px;
+}
+.oLeft img{
+    width:100%;
+    height:100%;
+}
+.oRight{
+    width:567px;
+    height:300px;
+    float:left;
+    margin-left:50px;
+    position:relative;
+}
+.oRight h1{
+    margin-top:0;
+    margin-bottom:28px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.oRight p{
+    font-size:20px;
+}
+.wrap .btn{
+    position: absolute;
+    right:0;
+    bottom:0;
+}

@@ -1,0 +1,186 @@
+.banner{
+    width:100%;
+    height:980px;
+    background:url(../images/rtos/bg.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.banner h1{
+    margin-top:389px;
+    margin-bottom:38px;
+    font-size: 36px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.banner p{
+    font-size: 30px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.rtos_header{
+    width:100%;
+    border-bottom:1px solid #e5e5e5;
+}
+.rtos_header a{
+    float: left;
+    padding:30px 0;
+    margin-right:82px;
+    font-size: 20px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.rtos_content h1{
+    margin-top:50px;
+    font-size: 30px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.r_text{
+    text-align: center;
+    margin-top:28px;
+    margin-bottom:30px;
+}
+.imgBox{
+    width:1200px;
+    height:300px;
+    margin:0 auto;
+    background:url(../images/rtos/rtos1.png);
+    overflow:hidden;
+}
+.imgText{
+    width:593px;
+    margin:82px auto 0;
+    font-size: 16px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0px;
+}
+.oImg{
+    margin-top:30px;
+}
+.oImg img{
+    width:1200px;
+    height:300px;
+    display:block;
+}
+.oUl li{
+    float:left;
+    width:240px;
+    height:200px;
+    padding:0 30px;
+    display:table;
+    background: #eeeeee;
+}
+.oUl li.active{
+    background-color:#fff;
+    border-bottom:1px solid #303183;
+}
+.oUl li p{
+    vertical-align:middle;  
+    display:table-cell;
+}
+.cx_content{
+    margin-top:50px;
+}
+.cx_content h1{
+    font-size: 30px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.cUl{
+    width:980px;
+    margin:0 auto;
+}
+.cUl li{
+    list-style: none;
+    background: url(../images/rtos/对勾.png) no-repeat left 4px;
+    padding-left: 20px;
+    margin-top:20px;
+    text-align: left;
+    color: #010101;
+    letter-spacing: 1px;
+}
+.clq_content h1{
+    margin-top:50px;
+    margin-bottom:30px;
+    font-size: 30px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.clqUl{
+    width:200px;
+    float:left;
+}
+.clqUl li{
+    width:200px;
+    height:50px;
+    background: #eeeeee;
+    text-align:center;
+    line-height:50px;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 4px;
+    cursor:pointer;
+}
+.clqUl li.active{
+    background: #303183;
+    color:#fff;
+    border: 1px solid #ffffff;
+}
+.clqBox{
+    float:left;
+}
+.clqBox li{
+    display:none;
+}
+.clqBox li.active{
+    display:block;
+}
+.clqBox .wrap{
+    float:left;
+    width:250px;
+    opacity: 1;
+    margin:0px 30px 30px;
+    background: #ffffff;
+    box-shadow: 1px 1px 3px 2px rgba(136,136,136,0.30); 
+}
+.subWrap{
+    width:230px;
+    height:190px;
+    margin:10px auto 0;
+    border: 1px solid #e5e5e5;
+    position: relative;
+}
+.subWrap img{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.clqBox .wrap p{
+    margin:15px 10px;
+}

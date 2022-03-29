@@ -1,0 +1,144 @@
+.banner{
+    width:100%;
+    height:1080px;
+    background:url("../images/about/bg.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.banner h1{
+    margin-top:330px;
+    margin-right:5px;
+    font-size:60px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+.banner p{
+    margin-top:48px;
+    font-size:24px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    text-align: right;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.nav{
+    width:100%;
+    height:80px;
+    border-bottom:1px solid #E5E5E5;
+}
+.nav ul{
+    height:80px;
+}
+.nav li{
+    float:left;
+    margin-right:50px;
+    height:80px;
+    line-height:80px;
+    box-sizing:border-box;
+}
+.nav li.active{
+    border-bottom:3px solid #303183;
+}
+.nav li a{
+    display:block;
+    font-size: 20px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.subbanner{
+    width:100%;
+    height:350px;
+    background: url("../images/about/lx1.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.subbanner p{
+    font-size:36px;
+    line-height:350px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.contentBox h1{
+    margin:60px 0;
+    font-size: 36px;
+    font-family: Adobe Heiti Std, Adobe Heiti Std-R;
+    font-style: italic;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.innerBox{
+    width:1050px;
+    margin:0 auto;
+}
+.oLeft{
+    width:500px;
+    float:left;
+    margin-left:22px;
+}
+.oLeft .oItem{
+    width:100%;
+    margin-bottom:30px;
+}
+.oLeft .oItem label{
+    display:inline-block;
+    width:82px;
+    padding-right:8px;
+    font-size:18px;
+    text-align:right;
+}
+.oLeft .oItem input{
+    display:inline-block;
+    width:400px;
+    height:40px;
+}
+.oLeft .oItem textarea{
+    width:400px;
+    height:200px;
+}
+.oItem .oBtn{
+    float:right;
+    width:150px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    color:#fff;
+    background:#303183;
+    font-size:16px;
+    border-radius:10px;
+}
+.oRight{
+    width:500px;
+    float:right;
+}
+.oRight .map{
+    width:500px;
+    height:300px;
+    background:url('../images/about/map.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-bottom:30px;
+}
+.oRight p{
+    margin-bottom:20px;
+}
+.oRight p span{
+    margin-left:19px;
+    font-size: 16px;
+    font-family: Adobe Heiti Std, Adobe Heiti Std-R;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 1px;
+    vertical-align:top;
+}
