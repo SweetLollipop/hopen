@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1200,initial-scale=0.3, maximum-scale=1, user-scalable=no">
+    <title>新闻中心</title>
+    <link rel="stylesheet" href="../../../r/cms/www/default/hopen/css/base.css" />
+    <link rel="stylesheet" href="../../../r/cms/www/default/hopen/css/news.css" />
+    <link rel="stylesheet" href="../../../r/cms/www/default/hopen/css/swiper.min.css" />
+    <link rel="stylesheet" href="../../../r/cms/www/default/hopen/css/animation.css" />
+</head>
+
+<body>
+    <!-- 页头区域 -->
+    <div class="wrap_head hestate head_white" style="position: fixed; top: 0px;">
+        <!-- 添加类名 submenu_show 显示子菜单 -->
+        <div class="head_con">
+            <a class="logo" href="../../index/index.html">
+                <h1></h1>
+            </a>
+            <ul class="menu_list" style="transform: translate(0px, 0px); opacity: 1;">
+                <li class="menu_item">
+                    <a class="txt" href="../../index/index.html">首页</a>
+                    <span class="menu_hook" style="width: 104px;"></span>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="javascript:void(0)">产品</a>
+                    <ul class="sub_list" style="display: none;">
+                        <li><a href="../../product/rtos.html">HopenRTOS微内核</a></li>
+                        <li><a href="../../product/vm.html">HopenVM虚拟机</a></li>
+                        <li><a href="../../product/sen.html">SenHopen传感器节点</a></li>
+                        <li><a href="javascript:void(0)">东方Linux</a></li>
+                    </ul>
+                    <span class="menu_hook" style="width: 104px;"></span>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="javascript:void(0)">解决方案</a>
+                    <ul class="sub_list" style="display: none;">
+                        <li><a href="../../solution/solution.html#d1">工业互联网</a></li>
+                        <li><a href="../../solution/solution.html#d2">电力控制</a></li>
+                        <li><a href="../../solution/solution.html#d3">航空航天</a></li>
+                        <li><a href="../../solution/solution.html#d4">智能家居</a></li>
+                        <li><a href="../../solution/solution.html#d5">医疗健康</a></li>
+                        <li><a href="../../solution/solution.html#d6">轨道交通</a></li>
+                    </ul>
+                    <span class="menu_hook" style="width: 104px;"></span>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="javascript:void(0)">专业服务</a>
+                    <ul class="sub_list" style="display: none;">
+                        <li><a href="../../services/customized.html">操作系统相关定制开发</a></li>
+                        <li><a href="../../services/team.html">技术团队支持（电话）</a></li>
+                        <li><a href="../../services/download.html">下载中心</a></li>
+                    </ul>
+                    <span class="menu_hook" style="width: 136px;"></span>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="javascript:void(0)">关于我们</a>
+                    <ul class="sub_list" style="display: none;">
+                        <li><a href="../../about/understand.html">了解昊鹏</a></li>
+                        <li><a href="../../about/news.html">昊鹏动态（新闻）</a></li>
+                        <li><a href="../../about/honor.html">所获荣誉</a></li>
+                        <li><a href="javascript:void(0)">合作伙伴</a></li>
+                        <li><a href="../../about/cases.html">成功案例</a></li>
+                        <li><a href="../../about/contact.html">联系我们</a></li>
+                        <li><a href="../../about/join.html">加入我们</a></li>
+                    </ul>
+                    <span class="menu_hook" style="width: 120px;"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="icon_menu">
+            <a class="i_menu"></a>
+            <a class="i_close"></a>
+        </div>
+        <div class="bg_hover"></div>
+    </div>
+    <!-- 页头区域 -->
+    <!-- banner -->
+    <div class="banner">
+        <div class="container">
+            <h1>凯思昊鹏</h1>
+            <p>凯思昊鹏简介</p>
+        </div>
+    </div>
+    <div id="nav" class="nav">
+        <div class="container">
+            <ul class="clearfix">
+                <li><a href="understand.html#nav">了解昊鹏</a></li>
+                <li class="active"><a href="news.html#nav">昊鹏动态</a></li>
+                <li><a href="honor.html#nav">所获荣誉</a></li>
+                <li><a href="javascript:void(0)">合作伙伴</a></li>
+                <li><a href="cases.html#nav">成功案例</a></li>
+                <li><a href="contact.html#nav">联系我们</a></li>
+                <li><a href="join.html#nav">加入我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="subbanner">
+        <div class="container">
+            <p>新闻中心</p>
+        </div>
+    </div>
+    <div class="contentBox">
+        <div class="container">
+            <h1 style="padding-bottom:40px;">云端话安全——HOPEN与Krono-Safe公司对话嵌入式操作系统安全内核构建方案</h1>
+            <div class="text">
+                <p>在数控机床、航空航天、轨道交通、电力装备这一类安全攸关以及关键基础设施领域，嵌入式系统的正确性和安全性问题是保障行业健康有序发展的重要基础。面对复杂需求场景，很多互联网/物联网系统在开发中，需求描述不精确、设计模型与需求不一致、代码实现的测试不完备，难以满足关键领域嵌入式系统的安全可靠性。凯思昊鹏(HOPEN)始终推进并攻克相关技术，解决并破解嵌入式系统安全性与可靠性的世界难题。伴随HOPEN在嵌入式系统内核安全，形式化验证方面的影响逐步显现，法国领先的嵌入式系统安全解决方案厂商KRONO-SAFE与凯思昊鹏公司进行了沟通和交流。</p>
+                <br>
+                <p>在安全可靠关键内核中，HOPEN围绕“自主化、创新化、形式化”路径构建战略体系。通过战略体系抢占Hopen嵌入式实时操作系统(HopenOS)在关键领域的标准话语权。在自主化方面上，Hopen目标实现在关键领域的国产化替代。从嵌入式操作系统来看，与HopenOS同类的国产操作系统有很多，然而事实上占据我国工业领域的操作系统仍然是以美国风河VxWorks为主的国外产品。在创新方面上，面对关键基础设施领域的高安全、高可靠和高可信需求，需要开发一套完整的、数学验证的、一体化的高可信系统开发环境与工具。目前在全球范围内，除了美国的DAPRA在航空领域做过类似的前瞻研究项目，其他领域尚未实现。在形式化方面上，全球工业可靠性与安全领域的验证中，IEC61508的最高等级和CC的EAL5级以上都对形式化验证提出了强制性要求，面对国际认证的最高等级要求，HopenOS在集成可靠性和安全性上持续创新。</p>
+                <br>
+                <p>凯思昊鹏公司作为国内知名的嵌入式实时操作系统开发商，HopenOS受到国内外的关注，HOPEN正在整合国内外最高端资源，积极推动工业软件的高可靠与高可信发展。</p>
+                <br>
+                <p>KRONO-SAFE旨在将最初由法国原子能委员会 (CEA)开发的软件技术商业化，在安全认证、工程化实时性保障方面有成功经验。2022年1月4日，双方就嵌入式实时操作系统的高安全、高可靠技术进行了沟通和交流。在这次对话交流中双方分享了嵌入式实时操作系统面临的挑战、安全内核构建方法等，探讨了下一步的发展计划、可商定的行动方案等。</p>
+                <br>
+                <div class="oRight" >
+                    <img src="../../../r/cms/www/default/hopen/images/about/newsDetail/image032.jpg" alt="">
+                </div>
+                <p>KRONO-SAFE公司成立于2011年，目前研发并销售ASTERIOS软件工具套件，包括针对安全关键型实时嵌入式系统的创新型实时内核（RTK），以及能够在单核或多核硬件目标平台上全面仿真和自动集成应用的集成型研发环境（IDE），其服务的市场既包括航空航天、国防、汽车、工业自动化、交通运输、能源、医疗等既有市场领域，也包括工业物联网等需要安全能力的新兴市场。</p>
+                <br>
+                <p>HOPEN公司成立于1998年，致力于国产自主可控嵌入式操作系统HopenOS及其系列解决方案的研发工作，在商业航天、物联网、工业控制、消费电子等领域有着较好的实践和产业化基础。2021年以来，Hopen嵌入式操作系统致力于高可信内核的升级工作，目标是以形式化验证的方式提高HopenOS内核的高安全高可靠特性。</p>
+                <br>
+                <p>KRONO-SAFE目标与HOPEN公司一致，双方均以国际范围对嵌入式系统安全能力的强烈需求为合作背景，共同推进双方互相认可支持和服务。</p>
+                <br>
+                <!-- <div class="clearfix">
+                    <div class="oLeft">
+                        <p>实时性保证（基于RT内核构建）；</p>
+                        <p>通过支持虚拟软件容器技术，实现轻量级虚拟化软件开发；</p>
+                        <p>支持多种工业控制协议及多种总线解析；</p>
+                        <p>支撑边缘设备实现对复杂异构环境下，工业数据采集与分析；</p>
+                        <p>支持HMI人机交互界面（QT ...）；</p>
+                        <p>Python3支持；</p>
+                        <p>实现控制器与工业互联网云平台的无缝连接，自由的应用流转、方便的设备配置和快速的数据传输；</p>
+                        <p>丰富易用的开发工具、完善的文档资源和贴心的技术支持；</p>
+                        <p> 提供丰富的软件模块、广泛的硬件支持、集成的云端连接、全面的维护计划。</p>
+                    </div>
+                    <div class="oRight">
+                        <img src="../../../r/cms/www/default/hopen/images/solution/d1.png" alt="">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="zzc">
+            <div class="f_inner">
+                <div class="f_item">
+                    <p><span>软件产品</span></p>
+                    <p><a href="javascript:void(0)">HopenRTOS（微内核）</a></p>
+                    <p><a href="javascript:void(0)">HopenVM虚拟机</a></p>
+                    <p><a href="javascript:void(0)">SenHopen</a></p>
+                    <p><a href="javascript:void(0)">东方Linux</a></p>
+                </div>
+                <div class="f_item">
+                    <p><span>解决方案</span></p>
+                    <p><a href="javascript:void(0)">工业互联网</a></p>
+                    <p><a href="javascript:void(0)">电力控制</a></p>
+                    <p><a href="javascript:void(0)">航空航天</a></p>
+                    <p><a href="javascript:void(0)">智能家居</a></p>
+                    <p><a href="javascript:void(0)">医疗健康</a></p>
+                    <p><a href="javascript:void(0)">轨道交通</a></p>
+                </div>
+                <div class="f_item">
+                    <p><span>专业服务</span></p>
+                    <p><a href="javascript:void(0)">操作系统相关定制开发</a></p>
+                    <p><a href="javascript:void(0)">技术团队支持</a></p>
+                    <p><a href="javascript:void(0)">下载中心</a></p>
+                </div>
+                <div class="f_item">
+                    <p><span>关于昊鹏</span></p>
+                    <p><a href="javascript:void(0)">了解昊鹏</a></p>
+                    <p><a href="javascript:void(0)">昊鹏动态</a></p>
+                    <p><a href="javascript:void(0)">所获荣誉</a></p>
+                    <p><a href="javascript:void(0)">合作伙伴</a></p>
+                    <p><a href="javascript:void(0)">成功案例</a></p>
+                    <p><a href="javascript:void(0)">联系我们</a></p>
+                    <p><a href="javascript:void(0)">加入我们</a></p>
+                </div>
+            </div>
+            <div class="f_bottom">
+                <p>版权所有©2021北京凯思昊鹏软件工程技术有限公司 京ICP备06001777号</p>
+                <p>友情链接：<a href="javascript:void(0)"><img src="../../../r/cms/www/default/hopen/images/index/zky.png"
+                            alt="中科院" /></a><a href="javascript:void(0)"><img
+                            src="../../../r/cms/www/default/hopen/images/index/gkkg.png" alt="国科控股"></a></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/base.js"></script>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/swiper.min.js"></script>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/swiper.animate1.0.3.min.js"></script>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/wow.min.js"></script>
+    <script>
+        if ($(document).scrollTop() >= $('.wrap_head').height()) {
+            $('.wrap_head').addClass('head_white');
+        } else {
+            $('.wrap_head').removeClass('head_white');
+        }
+        $(window).scroll(function (event) {
+            if ($(document).scrollTop() >= $('.wrap_head').height()) {
+                $('.wrap_head').addClass('head_white');
+            } else {
+                $('.wrap_head').removeClass('head_white');
+            }
+        })
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            //getRem(1920, 100);
+        })
+    </script>
+</body>
+
+</html>
