@@ -97,6 +97,7 @@
 .imginner{
     text-align: center;
     line-height:200px;
+    cursor: pointer;
 }
 .imginner span{
     margin-left:20px;
@@ -168,6 +169,7 @@
     background-color: #f7f7f7;
     color:#333;
     font-size:15px;
+    border:1.7px solid gray;
 }
 .from-warpper input{
     margin-left: 98.5px;
@@ -178,11 +180,20 @@
     color:#333;
     font-size:15px;
 }
+.from-warpper textarea{
+    margin-left: 5px;
+    width:382px;
+    height:60px;
+    background-color: #f7f7f7;
+    border-color:#e7e7e7;
+    color:#333;
+    font-size:15px;
+    border:1.5px solid gray;
+}
 .from-warpper label::before {
     content: '*';   
     color: red;   
     font-size: 100%;
-    
 }
 #submit,#cencel{
     border:1px solid rgb(0, 104, 155);

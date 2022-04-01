@@ -212,7 +212,7 @@
                 </div>
                 <div>
                     <label for="post">职务:</label>
-                    <input type="post" id="post" name="post" required autocomplete="off" placeholder="请输入地址">
+                    <input type="post" id="post" name="post" required autocomplete="off" placeholder="请输入职务">
                 </div>
                 <div>
                     <label for="email">邮箱:</label>
@@ -223,10 +223,10 @@
                     <input type="intendedIndustry" id="intendedIndustry" name="intendedIndustry"
                         style="margin-left: 65px;" required autocomplete="off" placeholder="请输入意向行业">
                 </div>
-                <div>
+                <div style="display: flex;">
                     <label for="descibe">意向合作产品描述:</label>
-                    <input type="text" id="descibe" name="descibe" style="margin-left: 0px;width:380px;height:60px"
-                        required autocomplete="off" placeholder="请输入意向合作产品描述，建议50字以内">
+                    <textarea type="textarea" id="descibe" name="descibe" style=""
+                        required autocomplete="off" placeholder="请输入意向合作产品描述，建议50字以内"></textarea>
                 </div>
                 <div style="text-align: center;width: 350px;">
                     <label for="captchaCode">验证码:</label>
@@ -235,7 +235,7 @@
                     <div id="imgWapper"></div>
                 </div>
                 <p class="content-prompt">温馨提示：尊敬的Hopen伙伴，填写正确的联系方式和准确的信息，有助于您更快速通过审核，谢谢合作！</p>
-                <div style="text-align: center;">
+                <div style="text-align: center;padding-top: 8px;">
                     <button id="submit">发送</button>
                     <button id="cencel" style="margin-left: 30px;">取消</button>
                 </div>
@@ -363,8 +363,8 @@
             $('#bsp').click(function () {
                 $('.mode,.shade').removeClass('hide')
                 $('#bspEdition').removeClass('hide')
-                resourcesName = "BSP"
-                document.getElementById("resourcesName").innerHTML = "BSP";
+                resourcesName = "HopenOS BSP"
+                document.getElementById("resourcesName").innerHTML = "HopenOS BSP";
                 getCode()
                 getResourceEdit()
             })
