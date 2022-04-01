@@ -23,7 +23,8 @@
             <ul class="menu_list" style="transform: translate(0px, 0px); opacity: 1;">
                 <li class="menu_item">
                     <a class="txt" href="../index/index.html">首页</a>
-                    <span class="menu_hook" style="width: 104px;"></span></li>
+                    <span class="menu_hook" style="width: 104px;"></span>
+                </li>
                 <li class="menu_item">
                     <a class="txt" href="javascript:void(0)">产品</a>
                     <ul class="sub_list" style="display: none;">
@@ -181,7 +182,7 @@
         </div>
     </div>
     <div class="shade hide"></div>
-    <div id="dialog" class="mode hide">
+    <div id="dialog" class="mode hide" style="font-family:'Microsoft YaHei'">
         <p>"请按下列提示，提交下载申请，HOPEN技术支持中心将审核您的信息，发送所需产品到指定邮箱，谢谢合作！"</p>
         <div class="from-warpper">
 
@@ -191,46 +192,46 @@
                 </div>
                 <div id="bspEdition" class="hide">
                     <label for="resourcesEdit">BSP版本:</label>
-                    <select id="resourcesEdit" name="resourcesEdit" required style="margin-left: 70px;width: 180px;">
+                    <select id="resourcesEdit" name="resourcesEdit" required>
                     </select>
                 </div>
                 <div>
                     <label for="name">姓名:</label>
-                    <input type="text" id="name" name="name" required autocomplete="off">
+                    <input type="text" id="name" name="name" required autocomplete="off" placeholder="请输入姓名">
                 </div>
                 <div>
                     <label for="phone">手机:</label>
-                    <input type="phone" id="phone" name="phone" required autocomplete="off">
+                    <input type="phone" id="phone" name="phone" required autocomplete="off" placeholder="请输入手机号">
                 </div>
                 <div>
                     <label for="dept">单位:</label>
-                    <input type="dept" id="dept" name="dept" required autocomplete="off">
+                    <input type="dept" id="dept" name="dept" required autocomplete="off" placeholder="请输入单位">
                 </div>
                 <div> <label for="adress">地址:</label>
-                    <input type="adress" id="adress" name="adress" required autocomplete="off">
+                    <input type="adress" id="adress" name="adress" required autocomplete="off" placeholder="请输入地址">
                 </div>
                 <div>
                     <label for="post">职务:</label>
-                    <input type="post" id="post" name="post" required autocomplete="off">
+                    <input type="post" id="post" name="post" required autocomplete="off" placeholder="请输入地址">
                 </div>
                 <div>
                     <label for="email">邮箱:</label>
-                    <input type="email" id="email" name="email" required autocomplete="off">
+                    <input type="email" id="email" name="email" required autocomplete="off" placeholder="请输入邮箱">
                 </div>
                 <div>
                     <label for="intendedIndustry">意向行业:</label>
                     <input type="intendedIndustry" id="intendedIndustry" name="intendedIndustry"
-                        style="margin-left: 65px;" required autocomplete="off">
+                        style="margin-left: 65px;" required autocomplete="off" placeholder="请输入意向行业">
                 </div>
                 <div>
                     <label for="descibe">意向合作产品描述:</label>
-                    <input type="descibe" id="descibe" name="descibe" style="margin-left: 0px;width:380px;height:60px"
-                        required autocomplete="off">
+                    <input type="text" id="descibe" name="descibe" style="margin-left: 0px;width:380px;height:60px"
+                        required autocomplete="off" placeholder="请输入意向合作产品描述，建议50字以内">
                 </div>
                 <div style="text-align: center;width: 350px;">
                     <label for="captchaCode">验证码:</label>
                     <input type="captchaCode" id="captchaCode" name="captchaCode"
-                        style="margin-left: 10px;width: 100px;" required autocomplete="off">
+                        style="margin-left: 10px;width: 100px;" required autocomplete="off" placeholder="验证码">
                     <div id="imgWapper"></div>
                 </div>
                 <p class="content-prompt">温馨提示：尊敬的Hopen伙伴，填写正确的联系方式和准确的信息，有助于您更快速通过审核，谢谢合作！</p>
@@ -291,7 +292,7 @@
                 contentType: 'application/json;charset=utf-8',
                 success: (data) => {
                     var html = '';
-                    html += '<img src="data:image/jpeg;base64,' + data.img + '" style="height: 26px">'
+                    html += '<img src="data:image/jpeg;base64,' + data.img + '" style="height: 30px">'
                     document.getElementById("imgWapper").innerHTML = html;
                     uuid = data.uuid
                 },
