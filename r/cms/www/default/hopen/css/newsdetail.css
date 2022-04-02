@@ -87,6 +87,7 @@
 }
 .containerNews p{
     text-indent:33px;
+    line-height: 155%;
 }
 .containerNews img{
     margin: 0 auto;

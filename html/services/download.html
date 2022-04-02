@@ -52,7 +52,7 @@
                     <ul class="sub_list" style="display: none;">
                         <li><a href="../services/customized.html">操作系统相关定制开发</a></li>
                         <li><a href="../services/team.html">技术团队支持（电话）</a></li>
-                        <li><a href="../services/download.html">下载中心</a></li>
+                        <li><a href="../services/download.html#nav">下载中心</a></li>
                     </ul>
                     <span class="menu_hook" style="width: 136px;"></span>
                 </li>
@@ -85,7 +85,7 @@
             <p>凯思昊鹏简介</p>
         </div>
     </div>
-    <div class="nav">
+    <div id="nav" class="nav">
         <div class="container">
             <ul class="clearfix">
                 <li><a href="customized.html">操作系统相关定制开发</a></li>
@@ -186,7 +186,7 @@
         <p>"请按下列提示，提交下载申请，HOPEN技术支持中心将审核您的信息，发送所需产品到指定邮箱，谢谢合作！"</p>
         <div class="from-warpper">
 
-            <form id="formData" name="formData" method="post" action="">
+            <form id="formData" name="formData">
                 <div id="resourcesName">
 
                 </div>
@@ -225,8 +225,8 @@
                 </div>
                 <div style="display: flex;">
                     <label for="descibe">意向合作产品描述:</label>
-                    <textarea type="descibe" id="descibe" name="descibe" 
-                        required autocomplete="off" placeholder="请输入意向合作产品描述，建议50字以内"></textarea>
+                    <textarea type="descibe" id="descibe" name="descibe" required autocomplete="off"
+                        placeholder="请输入意向合作产品描述，建议50字以内"></textarea>
                 </div>
                 <div style="text-align: center;width: 350px;">
                     <label for="captchaCode">验证码:</label>
@@ -421,7 +421,7 @@
                             getCode()
                         }
                         if (data.code == 200) {
-                            $('.shade,.mode').addClass('hide')
+                            //$('.shade,.mode').addClass('hide')
                             // removeForm()
                             $(':input', '#formData')
                                 .val('')
