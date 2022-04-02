@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1200,initial-scale=0.3, maximum-scale=1, user-scalable=no">
+    <title>新闻中心</title>
+    <link rel="stylesheet" href="../../../r/cms/www/default/hopen/css/base.css" />
+    <link rel="stylesheet" href="../../../r/cms/www/default/hopen/css/newsdetail.css" />
+    <link rel="stylesheet" href="../../../r/cms/www/default/hopen/css/swiper.min.css" />
+    <link rel="stylesheet" href="../../../r/cms/www/default/hopen/css/animation.css" />
+</head>
+
+<body>
+    <!-- 页头区域 -->
+    <div class="wrap_head hestate head_white" style="position: fixed; top: 0px;">
+        <!-- 添加类名 submenu_show 显示子菜单 -->
+        <div class="head_con">
+            <a class="logo" href="../../index/index.html">
+                <h1></h1>
+            </a>
+            <ul class="menu_list" style="transform: translate(0px, 0px); opacity: 1;">
+                <li class="menu_item">
+                    <a class="txt" href="../../index/index.html">首页</a>
+                    <span class="menu_hook" style="width: 104px;"></span>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="javascript:void(0)">产品</a>
+                    <ul class="sub_list" style="display: none;">
+                        <li><a href="../../product/rtos.html">HopenRTOS微内核</a></li>
+                        <li><a href="../../product/vm.html">HopenVM虚拟机</a></li>
+                        <li><a href="../../product/sen.html">SenHopen传感器节点</a></li>
+                        <li><a href="javascript:void(0)">东方Linux</a></li>
+                    </ul>
+                    <span class="menu_hook" style="width: 104px;"></span>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="javascript:void(0)">解决方案</a>
+                    <ul class="sub_list" style="display: none;">
+                        <li><a href="../../solution/solution.html#d1">工业互联网</a></li>
+                        <li><a href="../../solution/solution.html#d2">电力控制</a></li>
+                        <li><a href="../../solution/solution.html#d3">航空航天</a></li>
+                        <li><a href="../../solution/solution.html#d4">智能家居</a></li>
+                        <li><a href="../../solution/solution.html#d5">医疗健康</a></li>
+                        <li><a href="../../solution/solution.html#d6">轨道交通</a></li>
+                    </ul>
+                    <span class="menu_hook" style="width: 104px;"></span>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="javascript:void(0)">专业服务</a>
+                    <ul class="sub_list" style="display: none;">
+                        <li><a href="../../services/customized.html">操作系统相关定制开发</a></li>
+                        <li><a href="../../services/team.html">技术团队支持（电话）</a></li>
+                        <li><a href="../../services/download.html">下载中心</a></li>
+                    </ul>
+                    <span class="menu_hook" style="width: 136px;"></span>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="javascript:void(0)">关于我们</a>
+                    <ul class="sub_list" style="display: none;">
+                        <li><a href="../../about/understand.html">了解昊鹏</a></li>
+                        <li><a href="../../about/news.html">昊鹏动态（新闻）</a></li>
+                        <li><a href="../../about/honor.html">所获荣誉</a></li>
+                        <li><a href="javascript:void(0)">合作伙伴</a></li>
+                        <li><a href="../../about/cases.html">成功案例</a></li>
+                        <li><a href="../../about/contact.html">联系我们</a></li>
+                        <li><a href="../../about/join.html">加入我们</a></li>
+                    </ul>
+                    <span class="menu_hook" style="width: 120px;"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="icon_menu">
+            <a class="i_menu"></a>
+            <a class="i_close"></a>
+        </div>
+        <div class="bg_hover"></div>
+    </div>
+    <!-- 页头区域 -->
+    <!-- banner -->
+    <div class="banner">
+        <div class="container">
+            <h1>凯思昊鹏</h1>
+            <p>凯思昊鹏简介</p>
+        </div>
+    </div>
+    <div id="nav" class="nav">
+        <div class="container">
+            <ul class="clearfix">
+                <li><a href="understand.html#nav">了解昊鹏</a></li>
+                <li class="active"><a href="news.html#nav">昊鹏动态</a></li>
+                <li><a href="honor.html#nav">所获荣誉</a></li>
+                <li><a href="javascript:void(0)">合作伙伴</a></li>
+                <li><a href="cases.html#nav">成功案例</a></li>
+                <li><a href="contact.html#nav">联系我们</a></li>
+                <li><a href="join.html#nav">加入我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="subbanner">
+        <div class="container">
+            <p>新闻中心</p>
+        </div>
+    </div>
+    <div class="contentBox">
+        <div class="containerNews">
+            <h1>瞄准“卡脖子”难题 振兴自主软件产业</h1>
+            <h5>2021-10-21</h5>
+            <div class="text">
+                <br>
+                <p>
+                    “如果说数学是科学王冠上的明珠，那么操作系统就是软件工程领域皇冠上的明珠。尽管这些年来我国的科技发展取得了令人瞩目的成就，但是一些‘卡脖子’的科技难题仍然不容忽视。我们的目标就是要实现我国嵌入式操作系统的自主可控，切实改变中国在操作系统领域受制于人的局面。”北京凯思昊鹏软件工程技术有限公司（以下简称“凯思昊鹏”）董事长陈鹏如是说。 
+                </p>
+                <br>
+                <!-- <div class="oRight">
+                    <img src="../../../r/cms/www/default/hopen/images/about/newsDetail/image030.png"
+                        style="margin: 0 auto; display:block;" alt="">
+                </div>
+                <br> -->
+                <p>
+                    近年来，在陈鹏的带领下，以嵌入式操作系统为切入点，隶属于中国科学院软件中心的凯思昊鹏以国家需求为导向，充分发挥自身的体制机制的天然优势，以振兴自主软件产业为己任，做出了一系列大胆的探索和实践。
+                </p>
+                <br>
+                <h4>
+                    理念创新：研产结合，注重转化和应用
+                </h4>
+                <br>
+                <p>
+                    随着经济与科技的迅速发展，中国已跃居世界第二大经济体，取得了一系列令世界瞩目的成就。然而，二十年来中国网信产业却始终“缺芯少魂”，“芯”即芯片，被比喻为心脏，“魂”则是指操作系统。近年来，以美国为首的一些国家为了打压我国在国际上的地位与话语权，对中国高科技产业采取“卡脖子”打压政策，技术壁垒层层加高，处处设限，禁止高端仪器和关键技术的引进。因此，想要在国际局势中站稳脚跟，在发展经济的同时，科技的发展也必须进一步加强成为国内的广泛共识。
+                </p>
+                <br>
+                <p>
+                    “军工、国防、电力装备、汽车、医疗、智能设备等领域，一旦出现‘卡脖子’将给国家带来经济和社会运转瘫痪的风险，这就像压在我们胸口上的一块大石头，必须全力以赴地移除。”陈鹏说。
+                </p>
+                <br>
+                <p>
+                    作为中国科学院下属的科技企业，凯思昊鹏寄托了几代科学家的梦想和希望。身为凯思昊鹏的带头人，陈鹏对操作系统的研发有着很深的情结，这与他自身的成长经历密切相关。尽管出生于江西省的一个小县城，少年时代的陈鹏却对代表着高科技的计算机技术有着一种向往，不仅以优异成绩在吉林大学计算机专业完成本科和硕士研究生阶段的学习，更凭借浓厚的兴趣和扎实的积累考入北京航空航天大学李未院士门下攻读博士研究生。在实验室里，他跟随李未院士参与国家重大工程，开展操作系统的形式化验证研究工作。工作后，他加入了中科院软件中心，从助理研究员到研究员，十余年一直从事操作系统相关领域的科技创新工作。在2011年入选北京市科技新星的时候，倪光南院士作为陈鹏的导师，又指导他在嵌入式操作系统的可靠性验证领域开展自主科技创新。两位导师的谆谆教导，使他较早地认识到操作系统的研发对于中国网络信息科技领域的重大意义。
+                </p>
+                <br>
+                <p>
+                    “操作系统，跟其他的软件不一样。国际上的操作系统公司（例如微软、风河等），要么做得很大，要么不存在，不存在一个中间状态。这就像飞机一样，它要么在停机坪停着，要么在平流层飞行，中间位置不是属于它的空间。所以，操作系统公司必须要有雄心壮志，凯思昊鹏就是要做自主可控的嵌入式操作系统，实现对国外产品的替代。”陈鹏对未来充满信心。
+                </p>
+                <br>
+                <p>
+                    依托中科院软件中心，凯思昊鹏将目标锁定在科研与开发并重，着重实现产品的应用转化，不断推进中国自主可控的嵌入式操作系统的应用和推广。
+                </p>
+                <br>
+                <h4>
+                    科研创新：另辟蹊径，打造自主可控技术
+                </h4>
+                <br>
+                <p>
+                    2019年，陈鹏正式接掌凯思昊鹏。当时，很多人对他的上任有过不理解：“操作系统研发可不是小事儿，这样的重任扛在肩上就等于顶着一颗雷，没事儿给自己找罪受。”然而，陈鹏的内心却是激动的，他不管挑战有多大，在他内心深处，推进嵌入式操作系统的开发和推广的执著信念是坚定的，更把这个契机看做是发展自主软件产业的重大机遇。“中科院软件中心在嵌入式操作系统开发方面有着深厚的积累，女娲计划、核高基专项等都为此都打下了良好的技术基础。从这一点来说，我们对嵌入式操作系统的开发充满信心。”陈鹏绝口不提自己的雄心壮志，却把全部精力都投入到了操作系统研发的规划工作之中。
+                </p>
+                <br>
+                <p>
+                    从“女娲计划”开始，中科院软件中心就致力于打造属于中国人自己的嵌入式操作系统。那是1999年3月，比尔•盖茨亲临中国，宣布了“维纳斯”计划，意图以Windows CE 为技术内核的机顶盒来支持中国家电的上网功能，使得中国的老百姓能够“跑步进入网络时代”，进而以嵌入式操作系统介入乃至垄断中国的信息装置平台产业。面对这样的窘境，凯思集团（即凯思昊鹏）以民族企业身份站出来与之抗衡，推出了“女娲计划”，土女神开始了与洋女神针锋相对的叫板。
+                </p>
+                <br>
+                <p>
+                    实际上，“女娲计划”开发的嵌入式操作系统涵盖面宽广，不仅可以广泛应用于机顶盒、袖珍电脑、掌上电脑、PDA、VCD 等下一代信息家电上，还可应用于与互联网相联接的一切接入设备当中，在技术、性能上并不逊色于“维钠斯”，同时还具有所占系统资源少、硬件环境开放、成本低廉等特点。另外，“女娲” 完全由中国人开发，在文字操作与使用习惯方面更符合中国人的特点，因此使用上更加简洁方便。然而，由于种种原因，女娲计划未能实现其“初心”。其后，凯思昊鹏在“核高基重大专项”的支持下，继续在我国基础软件领域前行探索，并取得了一系列重要研究成果。
+                </p>
+                <br>
+                <p>
+                    自1998年成立至今，凯思昊鹏在计算机技术领域取得了令人瞩目的成就，2000年，嵌入式操作系统成功应用于股票网络机顶盒、联想天玑810掌上电脑，小天鹅智能洗衣机、电冰箱；2002年，应用于MEOL98首款支持照相功能的手机，该项目成果荣获北京市科技进步一等奖；2004年，应用于科健K838智能手机、东方Linux、采用HMAP方案的NECN600手机，荣获国家科技进步二等奖；2006年，应用于NECN940、海尔智能机N90，Hopen OSV3.0应用于芬兰Benefon公司；2008年应用于TD-SCDMA/GSM双模智能手机；2010年Hopen+android全面支持TD-SCDMA手机嵌入式实时操作系统；2012年，GB/T 25654-2010《手持电子产品嵌入式软件API》、Hopen操作系统虚拟机问世；2014年，无线传感网操作系统senHopen研发成功；2016年，重大专项（专项三）“新一代宽带无线移动通信网”课题启动；2018年，参与制定国家标准《GB-T 30961-2014 嵌入式软件质量度量》；2020年，全面推动嵌入式操作系统、嵌入式开发、测试、仿真环境一体化国产自主解决方案。 
+                </p>
+                <br>
+                <p>
+                    目前，作为国家级科研平台，凯思昊鹏拥有完整的嵌入式操作系统知识产权体系，包括10余项发明专利， 40余项系统级软件，15个开发工具与中间件，70余个应用与行业级软件，超过5项国家级标准，15项协议栈软件。依托中科院软件中心，凯思昊鹏具备国家级的科技创新能力，他们将以自己的实际行动为打造自主可控的嵌入式操作系统做出贡献。 
+                </p>
+                <br>
+                <h4>
+                    模式创新：广泛联合，构建生态体系
+                </h4>
+                <br>
+                <p>
+                    在网络信息技术领域，操作系统生态受制于人，不仅仅是信息安全问题，更是信息产业的发展权问题，在陈鹏的带领下，凯思昊鹏正在积极创建一个开放的新生态系统。
+                </p>
+                <br>
+                <p>
+                    近年来，伴随着大数据、云计算、人工智能等新一代信息技术的崛起，世界以更快的速度迎来了数字化转型。随着中国在国际舞台上影响力的加深以及信息技术领域的跨越式发展，构建自主的IT底层架构和标准能力逐渐形成，以自研CPU、操作系统、数据库、中间件、应用软件、整机等为代表的基础软硬件产品取得了长足发展，信息技术应用创新成为我国产业发展新的增长点。作为核心技术的典型代表和信息系统的最底层支撑，操作系统是信息产业的重要根基，有着牵一发而动全身的作用，在产业发展上也有着重要的引领作用。因此，我国自研的操作系统不论是在产业发展还是国家安全层面都具有非常重要的战略意义。 
+                </p>
+                <br>
+                <p>
+                    作为凯思昊鹏的掌舵人，陈鹏实现了科学家和企业家两种身份的巧妙融合，积极为凯思昊鹏和中国的嵌入式操作系统寻找未来。“我的导师李未院士经常告诫我们，从事科研创新工作要记住两点，一是要“顶天立地”，二是要“付出常人三倍的努力”。所以，在我看来，实现嵌入式操作系统的自主可控是一种发自内心的光荣的使命，我愿意和团队一起不懈努力，创造属于中国的奇迹。”
+                </p>
+                <br>
+                <p>
+                    面对国外厂商在基础软件领域的垄断和包围，凯思昊鹏选择了迎难而上，全面整合国内优秀的操作系统相关厂商，立志打造中国嵌入式操作系统的创新生态。“我们自主研发的系统如何扎根到中国的网信系统的土壤中，是首先需要解决的问题。这就要求我们打通上下游的合作伙伴的顾虑，实现向上兼容，向下合作。”陈鹏说。为此，他带领团队相关人员深入开展调研，拜访龙芯、飞腾、君正、海尔、许继电气等重要的合作伙伴，并充分发挥中国科学院下属企业的机制优势，积极构建操作系统国产化企业的生态伙伴关系。“经过初步的摸索，我们已经找到了自己的路，即以扎实的技术和真诚的态度，去赢得合作伙伴的信任，把他们的风险降到最低。”陈鹏说。
+                </p>
+                <br>
+                <p>
+                    谈到企业的管理，陈鹏感悟良多。他坦言，凯思昊鹏因为隶属中国科学院，运行模式方面更像科研机构。为此，他积极向华为、联想、曙光等业内顶尖企业学习，在国家的大力支持下，积极走市场化的道路，引入多家大型的战略合作伙伴，为老牌科研机构输入新鲜的血液，努力实现从资源、股权上的焕然一新，通过股权激励的方式，充分发挥资本和战略合作伙伴的力量，真正实现内嵌式操作系统的国产化。“现代企业的经营理念告诉我们，情怀很重要，但是光讲情怀还不够，对于企业引进的高水平人才，我们要能够给他们高薪和股权，让他们生存好，实现企业和员工的共同发展，这才是长久之计。此外，我们是开放的，我们愿意和社会上的大企业和投资机构一起合作，共同推动国家嵌入式网信事业的发展”陈鹏说。
+                </p>
+                <br>
+                <p>
+                    在IT行业，程序员经常被人们戏称为“码农”，认为他们是吃青春饭的。而作为业内专家，陈鹏深知，只有在计算机领域工作多年，才能具备丰富的经验和全局的思维。因此，他非常看重团队里的资深专家，他们的引领和带动作用不容小觑。当然，他也看重年轻人的活力和创新精神。他深信，尽管团队规模不是很大，但是只要充分发挥每个人的力量，就能够打造一支战斗力满满的团队。
+                </p>
+                <br>
+                <p>
+                    正青春，当自强。操作系统领域的产业量级达到万亿级，其发展前景令人充满想象。振兴自主软件产业，成为国家嵌入式网信事业的领军者，凯思昊鹏已经豪情满怀地踏上征程。“未来两年之内，我们要实现在国内替代国外的嵌入式操作系统，确保国家关键基础设施的安全。未来三至五年内，真正实现两条腿走路，一方面不断深化国产内嵌式操作系统的替代工作，逐渐进入内嵌式操作系统的深水区，探索军工、国防等领域的合作。另一方面，还要在现代化的实时操作系统领域做出领跑国际的成果，扭转我国网信领域基础研究技不如人的局面。”陈鹏说，“尽管这样的愿景充满了荆棘和挑战，但是凯思昊鹏一定会拼尽全力。
+                </p>
+                <br>
+                <p style="text-align:right;">
+                    ——专访北京凯思昊鹏软件工程技术有限公司董事长陈鹏博士
+                </p>
+                <br>
+                <p style="text-align:right;">
+                    《中国高新科技》
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="zzc">
+            <div class="f_inner">
+                <div class="f_item">
+                    <p><span>软件产品</span></p>
+                    <p><a href="javascript:void(0)">HopenRTOS（微内核）</a></p>
+                    <p><a href="javascript:void(0)">HopenVM虚拟机</a></p>
+                    <p><a href="javascript:void(0)">SenHopen</a></p>
+                    <p><a href="javascript:void(0)">东方Linux</a></p>
+                </div>
+                <div class="f_item">
+                    <p><span>解决方案</span></p>
+                    <p><a href="javascript:void(0)">工业互联网</a></p>
+                    <p><a href="javascript:void(0)">电力控制</a></p>
+                    <p><a href="javascript:void(0)">航空航天</a></p>
+                    <p><a href="javascript:void(0)">智能家居</a></p>
+                    <p><a href="javascript:void(0)">医疗健康</a></p>
+                    <p><a href="javascript:void(0)">轨道交通</a></p>
+                </div>
+                <div class="f_item">
+                    <p><span>专业服务</span></p>
+                    <p><a href="javascript:void(0)">操作系统相关定制开发</a></p>
+                    <p><a href="javascript:void(0)">技术团队支持</a></p>
+                    <p><a href="javascript:void(0)">下载中心</a></p>
+                </div>
+                <div class="f_item">
+                    <p><span>关于昊鹏</span></p>
+                    <p><a href="javascript:void(0)">了解昊鹏</a></p>
+                    <p><a href="javascript:void(0)">昊鹏动态</a></p>
+                    <p><a href="javascript:void(0)">所获荣誉</a></p>
+                    <p><a href="javascript:void(0)">合作伙伴</a></p>
+                    <p><a href="javascript:void(0)">成功案例</a></p>
+                    <p><a href="javascript:void(0)">联系我们</a></p>
+                    <p><a href="javascript:void(0)">加入我们</a></p>
+                </div>
+            </div>
+            <div class="f_bottom">
+                <p>版权所有©2021北京凯思昊鹏软件工程技术有限公司 京ICP备06001777号</p>
+                <p>友情链接：<a href="javascript:void(0)"><img src="../../../r/cms/www/default/hopen/images/index/zky.png"
+                            alt="中科院" /></a><a href="javascript:void(0)"><img
+                            src="../../../r/cms/www/default/hopen/images/index/gkkg.png" alt="国科控股"></a></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/base.js"></script>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/swiper.min.js"></script>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/swiper.animate1.0.3.min.js"></script>
+    <script type="text/javascript" src="../../../r/cms/www/default/hopen/js/wow.min.js"></script>
+    <script>
+        if ($(document).scrollTop() >= $('.wrap_head').height()) {
+            $('.wrap_head').addClass('head_white');
+        } else {
+            $('.wrap_head').removeClass('head_white');
+        }
+        $(window).scroll(function (event) {
+            if ($(document).scrollTop() >= $('.wrap_head').height()) {
+                $('.wrap_head').addClass('head_white');
+            } else {
+                $('.wrap_head').removeClass('head_white');
+            }
+        })
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            //getRem(1920, 100);
+        })
+    </script>
+</body>
+
+</html>
